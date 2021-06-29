@@ -1,13 +1,143 @@
-a{
-	text-decoration: none;
-	color: currentColor;
+:root {
+    --green: #01B140;
 }
 
-@media  screen and (max-width: 768px) {
-	footer .col-md-6{
-		text-align: center;
-	}
-	footer .pe-4{
-		padding: 0;
-	}
-  }
+body {
+    background: #fff;
+}
+
+button {
+    display: inline-block !important;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-grey {
+    background: #769FB6;
+}
+
+.bg-brown {
+    background: #5E4B56;
+}
+
+.bg-orange {
+    background: #DA7635;
+}
+
+.greenBtn,
+.greenBtn:hover {
+    background-color: var(--green);
+    color: #fff;
+    width: 175px;
+}
+
+#hero .container {
+    height: 500px;
+}
+
+#hero {
+    background-image: url(../images/Hero.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#about div img {
+    position: absolute;
+    top: -10px;
+    right: -30px;
+}
+
+#about .list li {
+    position: relative;
+}
+
+#about .list li::before {
+    width: 13px;
+    height: 13px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    background-image: url("../images/Vector.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#userComment .userImage {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#userComment .row::before {
+    content: "";
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    left: 1rem;
+    font-size: 20rem;
+    z-index: 1;
+    background: url("../images/quotes.svg") no-repeat;
+}
+
+#userComment .row::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0px;
+    right: 1rem;
+    font-size: 20rem;
+    z-index: 1;
+    background: url("../images/quotes.svg") no-repeat;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+    footer .col-md-6 {
+        text-align: center;
+    }
+    footer .pe-4 {
+        padding: 0;
+    }
+}
+
+
+/* Slick Dots */
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 14px !important;
+    height: 14px !important;
+    padding: 0;
+    border: 1px solid var(--green) !important;
+    border-radius: 100%;
+    background-color: transparent !important;
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--green) !important;
+}

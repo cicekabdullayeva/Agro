@@ -1,0 +1,27 @@
+    <div class="row mb-3">
+        <div class="col-sm-12 col-md-8 bg-light">
+          <div class="d-flex h-100 flex-column justify-content-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 p-0">
+          <img class="img-fluid" src="./img/company.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-8 bg-light">
+          <div class="d-flex h-100 flex-column justify-content-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 order-first p-0">
+          <img class="img-fluid" src="./img/company2.jpg">
+        </div>
+      </div>
+    </div>
