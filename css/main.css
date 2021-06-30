@@ -1,129 +1,159 @@
 :root {
-  --green: #01b140;
+    --green: #01b140;
 }
+
 button {
-  display: inline-block !important;
+    display: inline-block !important;
 }
+
 a {
-  text-decoration: none;
-  color: currentColor;
+    text-decoration: none;
+    color: currentColor;
 }
+
 a:hover {
-  color: var(--green);
+    color: var(--green);
 }
+
 .bg-green {
-  background-color: var(--green);
+    background-color: var(--green);
 }
+
 .f-green {
-  color: var(--green);
+    color: var(--green);
 }
+
 .bg-grey {
-  background: #769fb6;
+    background: #769fb6;
 }
+
 .bg-brown {
-  background: #5e4b56;
+    background: #5e4b56;
 }
+
 .bg-orange {
-  background: #da7635;
+    background: #da7635;
 }
+
 .greenBtn {
-  background-color: var(--green);
-  color: #fff;
-  width: 175px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 12px 20px;
-  font-size: 18px;
-  line-height: 1;
+    background-color: var(--green);
+    color: #fff;
+    width: 175px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 18px;
+    line-height: 1;
 }
+
 .greenBtn:hover {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    color: #fff;
 }
+
+header>div {
+    background-color: #01b14008 !important;
+}
+
 #hero .container {
-  height: 500px;
+    height: 500px;
 }
+
 #hero {
-  background-image: url(../images/Hero.png);
-  background-size: cover;
-  background-position: center center;
+    background-image: url(../images/Hero.png);
+    background-size: cover;
+    background-position: center center;
 }
 
 #about div img {
-  position: absolute;
-  top: -10px;
-  right: -30px;
+    position: absolute;
+    top: -10px;
+    right: -30px;
 }
+
 #about .list li {
-  position: relative;
+    position: relative;
 }
+
 #about .list li::before {
-  width: 13px;
-  height: 13px;
-  content: " ";
-  position: absolute;
-  top: 50%;
-  left: -20px;
-  transform: translateY(-50%);
-  background-image: url("../images/Vector.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    background-image: url("../images/Vector.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 #userComment .userImage {
-  height: 110px;
-  width: 110px;
-  border-radius: 50%;
-  margin: 0 auto;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
+
 #userComment .row::before {
-  content: "";
-  width: 75px;
-  height: 75px;
-  position: absolute;
-  top: 0px;
-  left: 1rem;
-  font-size: 20rem;
-  z-index: 1;
-  background: url("../images/quotes.svg") no-repeat;
+    content: "";
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    left: 1rem;
+    font-size: 20rem;
+    z-index: 1;
+    background: url("../images/quotes.svg") no-repeat;
 }
+
 #userComment .row::after {
-  content: "";
-  width: 75px;
-  height: 75px;
-  position: absolute;
-  bottom: 0px;
-  right: 1rem;
-  font-size: 20rem;
-  z-index: 1;
-  background: url("../images/quotes.svg") no-repeat;
-  transform: rotate(180deg);
+    content: "";
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0px;
+    right: 1rem;
+    font-size: 20rem;
+    z-index: 1;
+    background: url("../images/quotes.svg") no-repeat;
+    transform: rotate(180deg);
 }
+
 #counter .container-fluid {
-  background-color: #01b14008 !important;
+    background-color: #01b14008 !important;
 }
+
 #blog .card-link {
-  color: var(--green);
+    color: var(--green);
 }
+
 #getTheApp .container {
-  height: 30vw;
-  max-height: 400px;
+    height: 30vw;
+    max-height: 400px;
 }
+
 #getTheApp a {
-  color: var(--green) !important;
+    color: var(--green) !important;
 }
+
+
 /* Slick Dots */
+
 .slick-dots {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 1rem 0;
     list-style-type: none;
-  }
-  .slick-dots li {
+}
+
+.slick-dots li {
     margin: 0 0.25rem;
-  }
-  .slick-dots button {
+}
+
+.slick-dots button {
     display: block;
     width: 14px !important;
     height: 14px !important;
@@ -132,51 +162,53 @@ a:hover {
     border-radius: 100%;
     background-color: transparent !important;
     text-indent: -9999px;
-  }
-  .slick-dots li.slick-active button {
+}
+
+.slick-dots li.slick-active button {
     background-color: var(--green) !important;
-  }
-  
-  #partner .slick-track {
+}
+
+#partner .slick-track {
     display: flex;
-  }
-  #partner .slick-slide {
+}
+
+#partner .slick-slide {
     height: auto !important;
-  }
-  
+}
 
 @media screen and (max-width: 768px) {
-  footer .col-md-6 {
-    text-align: center;
-  }
-  footer .col-md-6 li {
-    justify-content: center;
-  }
-  footer .pe-4 {
-    padding: 0;
-  }
-  #hero h1 {
-    width: 100% !important;
-  }
-  #hero {
-    background-image: url(../images/heroMobile.png);
-  }
+    footer .col-md-6 {
+        text-align: center;
+    }
+    footer .col-md-6 li {
+        justify-content: center;
+    }
+    footer .pe-4 {
+        padding: 0;
+    }
+    #hero h1 {
+        width: 100% !important;
+    }
+    #hero {
+        background-image: url(../images/heroMobile.png);
+    }
 }
 
 @media screen and (max-width: 1100px) {
-  section#getTheApp {
-    display: none !important;
-  }
-  #product .row h3,
-  #product .row p {
-    text-align: center !important;
-  }
-  #product .row {
-    margin-bottom: 0 !important;
-  }
-}
-@media screen and (min-width: 1200px) {
-    .card-header > h3 {
-      font-size: 1.45rem;
+    section#getTheApp {
+        display: none !important;
     }
-  }
+    #product .row h3,
+    #product .row p {
+        text-align: center !important;
+    }
+    #product .row {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-header>h3 {
+        font-size: 1.45rem;
+    }
+}
