@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!--Bootstrap Icons CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link href="./css/main.css" rel="stylesheet">
+
+
+  <title>Dr.Agro</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+			<img src="./images/logo.png" alt="dr argo">
+		</a>
+		<a class="navbar-brand" href="#">
+			<img src="./images/ktnLogoAz.png" alt="Kənd təsərrüfatı nazirliyi">
+		</a>
+		<div class="input-group  border border-2 rounded ">
+			<input type="text" class="form-control py-2 border-0" placeholder="Məhsul axtar" aria-label="Məhsul axtar" aria-describedby="button-addon2">
+			<button class="btn " type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+		  </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Haqqımızda</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Məhsullar</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Xidmətlər</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Bloq</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#">Əlaqə</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="dark-bg" id="hero">
+    <div class="container">
+      <div class="d-flex h-100 flex-column text-light justify-content-center">
+        <h1 class="display-1">eli`<span class="text-danger">S</span>`oft</h1>
+        <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <span
+            class="text-danger">Duis aute irure dolor in est nonluctus</span> reprehenderi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="generic" id="about">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5">WHO WE ARE</h2>
+      <div class="row mb-3">
+        <div class="col-sm-12 col-md-8 bg-light">
+          <div class="d-flex h-100 flex-column justify-content-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 p-0">
+          <img class="img-fluid" src="./img/company.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-8 bg-light">
+          <div class="d-flex h-100 flex-column justify-content-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 order-first p-0">
+          <img class="img-fluid" src="./img/company2.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="latest">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5">WHAT WE DO</h2>
+    </div>
+    <div class="container-fluid">
+
+
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 p-0">
+          <div class="latest-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail1" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/1.jpg" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 p-0">
+          <div class="latest-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail2" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/2.jpg" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 p-0">
+          <div class="latest-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail3" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/3.jpg" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 p-0">
+          <div class="latest-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail4" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/4.jpg" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="collapse" id="itemDetail1">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0 shadow">
+              <div class="col-sm-6 col-xl-3 p-0">
+                <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse"
+                  data-bs-target="#itemDetail1" aria-expanded="false" aria-controls="collapseExample"></button>
+
+                <dl class="row ps-5">
+                  <dt class="col-12"><span class="text-danger lead">PROJECT NAME 1</span></dt>
+                  <dt class="col-4">CLIENT</dt>
+                  <dd class="col-8">ABC Company</dd>
+                  <dt class="col-4">CATEGORY</dt>
+                  <dd class="col-8">Branding</dd>
+                  <dt class="col-4">DURATION</dt>
+                  <dd class="col-8">2 weeks</dd>
+                </dl>
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/5.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/6.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/7.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse" id="itemDetail2">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0 shadow">
+              <div class="col-sm-6 col-xl-3 p-0">
+                <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse"
+                  data-bs-target="#itemDetail2" aria-expanded="false" aria-controls="collapseExample"></button>
+
+                <dl class="row ps-5">
+                  <dt class="col-12"><span class="text-danger lead">PROJECT NAME 2</span></dt>
+                  <dt class="col-4">CLIENT</dt>
+                  <dd class="col-8">ABC Company</dd>
+                  <dt class="col-4">CATEGORY</dt>
+                  <dd class="col-8">Branding</dd>
+                  <dt class="col-4">DURATION</dt>
+                  <dd class="col-8">2 weeks</dd>
+                </dl>
+              </div>
+              <div class="col-sm-6 col-xl-3 p-0">
+                <img src="./img/5.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/6.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/7.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse" id="itemDetail3">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0 shadow">
+              <div class="col-sm-6 col-xl-3  p-0">
+                <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse"
+                  data-bs-target="#itemDetail3" aria-expanded="false" aria-controls="collapseExample"></button>
+
+                <dl class="row ps-5">
+                  <dt class="col-12"><span class="text-danger lead">PROJECT NAME 3</span></dt>
+                  <dt class="col-4">CLIENT</dt>
+                  <dd class="col-8">ABC Company</dd>
+                  <dt class="col-4">CATEGORY</dt>
+                  <dd class="col-8">Branding</dd>
+                  <dt class="col-4">DURATION</dt>
+                  <dd class="col-8">2 weeks</dd>
+                </dl>
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0 shadow">
+                <img src="./img/5.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/6.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/7.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse" id="itemDetail4">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0 shadow">
+              <div class="col-sm-6 col-xl-3  p-0">
+                <button type="button" class="btn-close" aria-label="Close" data-bs-toggle="collapse"
+                  data-bs-target="#itemDetail4" aria-expanded="false" aria-controls="collapseExample"></button>
+
+                <dl class="row ps-5">
+                  <dt class="col-12"><span class="text-danger lead">PROJECT NAME 4</span></dt>
+                  <dt class="col-4">CLIENT</dt>
+                  <dd class="col-8">ABC Company</dd>
+                  <dt class="col-4">CATEGORY</dt>
+                  <dd class="col-8">Branding</dd>
+                  <dt class="col-4">DURATION</dt>
+                  <dd class="col-8">2 weeks</dd>
+                </dl>
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/5.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/6.jpg" class="img-fluid">
+              </div>
+              <div class="col-sm-6 col-xl-3  p-0">
+                <img src="./img/7.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+
+  <section id="blog" class="generic">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5">WHAT WE SAY</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+
+          <div class="card bg-light border-0">
+            <img src="./img/blog1.jpg" class="card-img-top rounded-0">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase text-danger mb-4">
+                5 OUTRAGEOUS IDEAS FOR YOUR TECHNOLOGY
+              </h5>
+              <h6 class="card-title text-uppercase text-danger">
+                ARMANDO DIEGO
+              </h6>
+              <p class="card-text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto ...
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        2 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        10
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light border-0">
+            <img src="./img/blog1.jpg" class="card-img-top rounded-0">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase text-danger mb-4">
+                5 OUTRAGEOUS IDEAS FOR YOUR TECHNOLOGY
+              </h5>
+              <h6 class="card-title text-uppercase text-danger">
+                ARMANDO DIEGO
+              </h6>
+              <p class="card-text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto ...
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        2 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        10
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-light border-0">
+            <img src="./img/blog1.jpg" class="card-img-top rounded-0">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase text-danger mb-4">
+                5 OUTRAGEOUS IDEAS FOR YOUR TECHNOLOGY
+              </h5>
+              <h6 class="card-title text-uppercase text-danger">
+                ARMANDO DIEGO
+              </h6>
+              <p class="card-text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto ...
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        2 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        10
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-none d-md-block d-lg-none">
+          <div class="card bg-light border-0">
+            <img src="./img/blog1.jpg" class="card-img-top rounded-0">
+            <div class="card-body ps-3">
+              <h5 class="lead text-uppercase text-danger mb-4">
+                5 OUTRAGEOUS IDEAS FOR YOUR TECHNOLOGY
+              </h5>
+              <h6 class="card-title text-uppercase text-danger">
+                ARMANDO DIEGO
+              </h6>
+              <p class="card-text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto ...
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <small class="text-muted">
+                    <i class="bi bi-clock">
+                      <span class="align-middle">
+                        2 Days Ago |
+                      </span>
+                    </i>
+                  </small>
+                </li>
+                <li class="list-inline-item">
+                  <small class="text-muted">
+
+                    <span class="align-middle">
+                      <i class="bi bi-chat-left-text">
+                        10
+                      </i>
+                    </span>
+                  </small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER SECTION  -->
+
+  <section id="divider" class="generic dark-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <form>
+            <div class="input-group input-group-lg">
+              <input type="email" class="form-control rounded-0 border-danger text-white bg-transparent"
+                placeholder="@JOIN NEWSLETTER">
+              <span class="input-group-btn input-group-lg">
+                <input type="submit" class="btn btn-danger rounded-0 text-white border-danger" value="SUBSCRIBE">
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH SECTION  -->
+
+  <section id="idapproach" class="generic">
+    <div class="container">
+      <h2 class="display-5 text-danger text-uppercase mb-5">HOW WE APPROACH</h2>
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="card bg-light border-0 mb-5">
+            <img src="./img/design.jpg" class="card-img-top rounded-0">
+            <div class="card-body">
+              <h5 class="lead text-danger text-uppercase mb-4">Design Approach</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                      truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                      squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                      haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                      truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                      squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                      haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                      truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                      squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                      haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="card bg-light border-0">
+            <img src="./img/development.jpg" class="card-img-top rounded-0">
+            <div class="card-body">
+              <h5 class="lead text-danger text-uppercase mb-4">Development Approach</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Accordion Item #4
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                      truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                      squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                      haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      Accordion Item #5
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                      truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                      squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                      haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      Accordion Item #6
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                      truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                      squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                      haven't heard of them accusamus labore sustainable VHS.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--TEAM SECTION-->
+
+  <section id="team" class="generic">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5">THE TEAM</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 p-0">
+          <div class="d-grid bg-danger py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              <span class="lead">DESIGNER</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3  p-0">
+          <div class="d-grid bg-warning py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
+              <span class="lead">DEVELOPER</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3  p-0">
+          <div class="d-grid bg-success py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3">
+              <span class="lead">ENGINEER</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3  p-0">
+          <div class="d-grid bg-info py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-info rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal4">
+              <span class="lead">ARTIST</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--MODAL-->
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="modal-body">
+            <img src="./img/team1.jpg" class="img-fluid">
+            <h5 class="lead text-danger mt-2">JANE MAYAKOVSKI</h5>
+            <p>Utilize the Bootstrap grid system within a modal by nesting .container-fluid within the .modal-body.
+              Then, use the normal grid system classes as you would anywhere else.</p>
+            <ul class="list-unstyled">
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Lorem ipsum dolor sit amet</li>
+              <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+              </ul>
+              <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+
+            <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+              <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
+              <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
+              <button type="button" class="btn btn-info rounded-0">TWITTER</button>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="modal-body">
+            <img src="./img/team2.jpg" class="img-fluid">
+            <h5 class="lead text-danger mt-2">JOHN DOE</h5>
+            <p>Utilize the Bootstrap grid system within a modal by nesting .container-fluid within the .modal-body.
+              Then, use the normal grid system classes as you would anywhere else.</p>
+            <ul class="list-unstyled">
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Lorem ipsum dolor sit amet</li>
+              <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+              </ul>
+              <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+
+            <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+              <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
+              <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
+              <button type="button" class="btn btn-info rounded-0">TWITTER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT SECTION-->
+  <section id="contact" class="generic dark-bg">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5">GET IN TOUCH</h2>
+
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <form class="row">
+
+            <div class="col-6">
+              <div class="input-group">
+                <div class="input-group-text rounded-0 bg-danger border-danger text-white">
+                  <i class="bi bi-person-fill"></i>
+                </div>
+                <input type="text" class="form-control rounded-0 border-danger text-white bg-transparent"
+                  placeholder="NAME *" required>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="input-group">
+                <div class="input-group-text rounded-0 bg-danger border-danger text-white">
+                  <i class="bi bi-at"></i>
+                </div>
+                <input type="email" class="form-control rounded-0 border-danger text-white bg-transparent"
+                  placeholder="EMAIL *" required>
+              </div>
+            </div>
+
+            <div class="col-12 py-5">
+              <div class="input-group">
+                <div class="input-group-text rounded-0 bg-danger border-danger text-white">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <textarea class="form-control rounded-0 border-danger text-white bg-transparent"
+                  placeholder="MEESAGE *" rows="5" required></textarea>
+              </div>
+            </div>
+
+            <div class="d-grid">
+              <button class="btn btn-outline-danger rounded-0 text-uppercase" type="submit">
+                  SEND MESSAGE
+              </button>
+            </div>
+
+          </form>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <table class="table border-0 d-flex h-100 flex-column justify-content-center">
+            <tbody>
+              <tr>
+                <td colspan="7" class="align-middle">
+                  <span class="text-light">C/St Diego 13, D:2-K:44 10034 Edremit / Balıkesir - Turkey</span>
+                </td>
+                <th scope="row" class="text-danger lead text-center">
+                  <i class="bi bi-geo-alt-fill" style="font-size: 2rem;"></i>
+                </th>
+              </tr>
+              <tr>
+                <td colspan="7" class="align-middle">
+                  <span class="text-light">+90 555 - 444 - 333 - 222 - 111</span>
+                </td>
+                <th scope="row" class="text-danger lead text-center">
+                  <i class="bi bi-telephone-fill" style="font-size: 2rem;"></i>
+                </th>
+              </tr>
+
+              <tr>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-facebook"></i></span></td>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-twitter"></i></span></td>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-youtube"></i></span></td>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-linkedin"></i></span></td>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-google"></i></span></td>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-instagram"></i></span></td>
+                <td class="align-middle"><span class="text-light"><i class="bi bi-github"></i></span></td>
+                <th scope="row" class="text-danger lead text-center">
+                  <i class="bi bi-eye-fill" style="font-size: 2rem;"></i>
+                </th>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="bd-footer py-5 mt-5 bg-dark text-light">
+	<div class="container ">
+	  <div class="row">
+		<div class="col-lg-3 col-md-6 col-sm-12 mb-3 ps-3">
+		  <a class="d-inline-flex align-items-center mb-5 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+			<img src="./images/logoFooter.png" alt="Dr Argo">
+		  </a>
+		  <p class="pe-4">Əkinlərinizin planlı və gəlirli olması üçün innovativ həll yolu.</p>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12  mb-3 ps-3 d-flex flex-column justify-content-center">
+		  <h5 class="mb-4 text-white">Linklər</h5>
+		  <ul class="list-unstyled">
+			<li class="mb-2"><a href="#">Haqqımızda</a></li>
+			<li class="mb-2"><a href="#">Məhsullar</a></li>
+			<li class="mb-2"><a href="#">Xidmətlər</a></li>
+			<li class="mb-2"><a href="#">Bloq</a></li>
+			<li class="mb-2"><a href="#">FAG</a></li>
+		  </ul>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-12 mb-3 ps-3">
+		  <h5 class="mb-4 text-white">Contact</h5>
+		  <ul class="list-unstyled">
+			<li class="mb-2 d-flex align-items-center">
+				<span class="h-100 me-3">
+					<i class="bi bi-geo-alt"></i>
+				</span>
+				<span>
+					Bakı şəhəri. Binəqədi rayounu, 
+					Akif İslamzadə küçəsi 125
+				</span>
+			</li>
+			<li class="mb-2 d-flex align-items-center">
+				<span class="h-100  me-3">
+					<i class="bi bi-envelope"></i>
+				</span>
+				<span>
+					test@gmail.com
+				</span>
+			</li>
+			<li class="mb-2 d-flex align-items-center">
+				<span class="h-100  me-3">
+					<i class="bi bi-telephone"></i>
+				</span>
+				<span>
+					+994 51 56676766
+				</span>
+			</li>
+		  </ul>
+		</div>
+		
+		<div class="col-lg-3 col-md-6 col-sm-12 mb-5 ps-3 d-flex flex-column justify-content-lg-end">
+		  <p class="text-center">Bizi sosial şəbəkələrdə izləyin</p>
+		  <ul class="list-unstyled d-flex justify-content-center">
+			<li class="mb-2 mx-2"><a href="#">
+				<svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1.1698 11.5283V17.3397H5.52829V27.5095H11.3396V17.3397H15.6981L17.1509 11.5283H11.3396V8.62267C11.3396 8.23736 11.4927 7.86782 11.7651 7.59537C12.0376 7.32291 12.4071 7.16984 12.7924 7.16984H17.1509V1.35852H12.7924C10.8659 1.35852 9.0182 2.12385 7.65591 3.48614C6.29362 4.84843 5.52829 6.6961 5.52829 8.62267V11.5283H1.1698Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</a></li>
+			<li class="mb-2 mx-2"><a href="#">
+				<svg width="32" height="25" viewBox="0 0 32 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M30.6986 0.825843C29.2457 1.53773 27.822 1.82684 26.3401 2.26414C24.7115 0.426315 22.2969 0.324617 19.9767 1.19341C17.6565 2.0622 16.1369 4.18624 16.1703 6.62263V8.07546C11.4558 8.19605 7.25716 6.04877 4.54763 2.26414C4.54763 2.26414 -1.52811 13.063 10.3589 18.2453C7.63925 20.057 4.92682 21.2788 1.64197 21.1509C6.44793 23.7704 11.6854 24.6711 16.2197 23.3549C21.4208 21.8439 25.695 17.946 27.3353 12.1071C27.8246 10.3312 28.0675 8.49658 28.0573 6.6546C28.0544 6.29284 30.2511 2.62735 30.6986 0.82439V0.825843Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</a></li>
+			<li class="mb-2 mx-2"><a href="#">
+				<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0)">
+					<path d="M1.96652 4.51134C1.96652 3.79146 2.21682 3.18806 2.62952 2.76705C3.04016 2.34815 3.64482 2.07571 4.42061 2.07571C5.1945 2.07571 5.77893 2.34654 6.17567 2.76161C6.57589 3.18032 6.8231 3.78635 6.83934 4.51744C6.83794 5.21808 6.59509 5.82043 6.18616 6.24462C5.77958 6.66637 5.17611 6.94631 4.38479 6.94631H4.34975C2.89929 6.94631 1.96652 5.89667 1.96652 4.51134Z" stroke="white" stroke-width="1.2"/>
+					<path d="M2.31185 10.5443H6.95135V26.9127H2.31185V10.5443Z" stroke="white" stroke-width="1.2"/>
+					<path d="M21.884 9.53296C18.7338 9.53296 16.6214 12.4931 16.6214 12.4931V9.94529H10.7817V27.5137H16.6211V17.7028C16.6211 17.1776 16.6591 16.6532 16.8134 16.2776C17.2356 15.2288 18.1962 14.1423 19.8095 14.1423C21.9225 14.1423 22.7677 15.7534 22.7677 18.1152V27.5137H28.6067V17.4403C28.6067 12.044 25.7256 9.53296 21.884 9.53296V9.53296Z" stroke="white" stroke-width="1.2"/>
+					</g>
+					<defs>
+					<clipPath id="clip0">
+					<rect width="29.0566" height="29.0566" fill="white" transform="translate(0.472656)"/>
+					</clipPath>
+					</defs>
+					</svg>
+			</a></li>
+			<li class="mb-2 mx-2"><a href="#">
+				<svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M25.0946 7.26416H10.5663C7.35682 7.26416 4.755 9.86598 4.755 13.0755V21.7925C4.755 25.002 7.35682 27.6038 10.5663 27.6038H25.0946C28.3041 27.6038 30.9059 25.002 30.9059 21.7925V13.0755C30.9059 9.86598 28.3041 7.26416 25.0946 7.26416Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M14.9248 13.0754L22.189 17.4339L14.9248 21.7924V13.0754Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</a></li>
+			<li class="mb-2 mx-2"><a href="#">
+				<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M23.3781 5.81128H11.7555C8.54597 5.81128 5.94415 8.4131 5.94415 11.6226V23.2452C5.94415 26.4547 8.54597 29.0566 11.7555 29.0566H23.3781C26.5876 29.0566 29.1894 26.4547 29.1894 23.2452V11.6226C29.1894 8.4131 26.5876 5.81128 23.3781 5.81128Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M17.5668 21.7924C19.9739 21.7924 21.9253 19.8411 21.9253 17.4339C21.9253 15.0268 19.9739 13.0754 17.5668 13.0754C15.1597 13.0754 13.2083 15.0268 13.2083 17.4339C13.2083 19.8411 15.1597 21.7924 17.5668 21.7924Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M24.1045 10.8962V10.8972" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</a></li>
+		  </ul>
+		</div>
+	  </div>
+	  <div class="row">
+		  <hr>
+		  <div class="col-lg-4 offset-lg-8 col-md-12 text-center">
+			<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M12 21.8418C16.9706 21.8418 21 17.7202 21 12.6359C21 7.55158 16.9706 3.42993 12 3.42993C7.02944 3.42993 3 7.55158 3 12.6359C3 17.7202 7.02944 21.8418 12 21.8418Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				<path d="M14.5 9.56732C13.9948 9.0465 13.3718 8.70715 12.7057 8.58998C12.0397 8.47282 11.3588 8.58282 10.7449 8.90679C10.131 9.23076 9.61008 9.75493 9.24469 10.4164C8.87929 11.0779 8.68494 11.8486 8.68494 12.636C8.68494 13.4234 8.87929 14.1941 9.24469 14.8555C9.61008 15.517 10.131 16.0412 10.7449 16.3651C11.3588 16.6891 12.0397 16.7991 12.7057 16.682C13.3718 16.5648 13.9948 16.2254 14.5 15.7046" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				<span class="fs-6">2021 Primberg. Bütün hüquqlar qorunur</span>
+		  </div>
+	  </div>
+	</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

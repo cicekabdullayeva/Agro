@@ -1,0 +1,13 @@
+a{
+	text-decoration: none;
+	color: currentColor;
+}
+
+@media  screen and (max-width: 768px) {
+	footer .col-md-6{
+		text-align: center;
+	}
+	footer .pe-4{
+		padding: 0;
+	}
+  }
