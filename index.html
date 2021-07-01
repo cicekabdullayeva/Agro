@@ -29,61 +29,103 @@
 
 <body>
   <header id="header">
-    <nav class="navbar navbar-expand-md navbar-light bg-white py-3">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./images/logo.png" alt="dr argo">
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="./images/ktnLogoAz.png" alt="Kənd təsərrüfatı nazirliyi">
-        </a>
-        <div class="input-group  border border-2 rounded ">
-          <input type="text" class="form-control py-2 border-0" placeholder="Məhsul axtar" aria-label="Məhsul axtar"
-            aria-describedby="button-addon2">
-          <button class="btn " type="button" id="button-addon2"><i class="bi bi-search"></i></button>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Haqqımızda</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Məhsullar</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Xidmətlər</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Bloq</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Əlaqə</a>
-            </li>
-
+    <div class="container d-none d-md-block">
+      <div class="d-flex pt-3 justify-content-end">
+        <div class="btn-group">
+          <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            AZ
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">AZ</a></li>
+            <li><a class="dropdown-item" href="#">EN</a></li>
           </ul>
+          <button type="button" class="btn btn-light mx-2 f-green">Daxil ol</button>
+          <a href="#" class="greenBtn">Qeydiyyat</a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-3 ">
+      <div class="container justify-content-center px-0">
+        <div class="row w-100 ">
+          <div class="col-xl-3 col-lg-4 col-md-4  col-sm-12 d-flex justify-content-center align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="./images/logo.png" alt="dr argo" class="img-fluid">
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="./images/ktnLogoAz.png" alt="Kənd təsərrüfatı nazirliyi" class="img-fluid">
+            </a>
+            <button type="button" class="btn btn-light mx-2  ms-auto   d-block  d-md-none" style="min-width: 90px;
+            ">Daxil ol</button>
+
+            <button class="navbar-toggler d-md-none border-0 " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="col-xl-3   justify-content-center align-items-center d-none d-xl-flex">
+            <div class="input-group  border border-2 rounded  ">
+              <input type="text" class="form-control py-2 border-0" placeholder="Məhsul axtar" aria-label="Məhsul axtar"
+                aria-describedby="button-addon2">
+              <button class="btn " type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-lg-8  col-md-8  col-sm-12 d-lg-flex d-block justify-content-end align-items-center ">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#about">Haqqımızda</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#product">Məhsullar</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#counter">Xidmətlər</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#blog">Bloq</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#footer">Əlaqə</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </nav>
   </header>
   <main>
-    <section id="hero">
-      <div class="container position-relative">
-        <div class="d-flex h-100 flex-column text-light justify-content-center align-items-start">
-          <h1 class="display-5 w-50 fw-bold mb-3">Dr. Agro ilə əkinləriniz daha planlı, məhsuldar və gəlirli olsun.</h1>
-          <button type="button" class="btn greenBtn px-4 py-2 ">Get the app</button>
-        </div>
-        <img src="./images/mobileView.png" alt="Dr Agro" class="position-absolute bottom-0 end-0">
+    <section class="search mx-2">
+      <div class="input-group  container border border-2 rounded  d-xl-none my-3 ">
+        <input type="text" class="form-control py-2 border-0" placeholder="Axtar" aria-label="Məhsul axtar"
+          aria-describedby="button-addon2">
+        <button class="btn " type="button" id="button-addon2"><i class="bi bi-search"></i></button>
       </div>
     </section>
+    <!--Hero section-->
+    <section id="hero">
+      <div class="container position-relative me-3 ">
+        <div class="d-flex h-100 flex-column text-light justify-content-center align-items-start">
+          <h1 class="display-5 w-50 fw-bold mb-3">Dr. Agro ilə əkinləriniz daha planlı, məhsuldar və gəlirli olsun.</h1>
+          <a href="https://play.google.com/store/movies" class="greenBtn">Get the app</a>
+        </div>
+        <picture>
+          <source srcset="./images/1576-Recovered.png" media="(max-width: 768px)" />
+          <img src="./images/mobileView.png" alt="Dr Agro" class="position-absolute bottom-0 end-0">
 
+        </picture>
+      </div>
+    </section>
+    <!--About section-->
     <section class="py-5" id="about">
       <div class="container">
         <h2 class="fs-1 text-center mb-3">Dr. Agro</h2>
-        <p class="mx-auto w-75 text-center  ">
+        <p class="mx-auto px-5 text-center  ">
           Dr. Agro fermerlər üçün nəzərdə tutulmuş diaqnostik və məsləhət proqramıdır. Proqram IOS, Android app və WEB
           versiyada istifadəçilərə xidmət göstərir. Program fermerlərə 38 bitki üçün əkin planlama, büdcə hesablama,
           əkdiyi bitkilərdə aqrotexniki əməliyyatlar üçün aylıq bildirişlər, aqronomdan məsləhət alma, fərdi gübrələmə
@@ -180,7 +222,7 @@
         </div>
 
     </section>
-
+    <!--Product section-->
     <section class="py-5" id="product">
 
       <div class="container">
@@ -189,30 +231,36 @@
             <img class="img-fluid w-100" src="./images/productSection.png">
           </div>
           <div class="col-lg-12 col-xl-6">
-            <div class="d-flex h-100 flex-column justify-content-center align-items-start p-5">
+            <div class="d-flex h-100 flex-column justify-content-center  p-5 align-items-center align-items-xl-start">
               <h3>Məhsuldarlığınızı bizimlə artırın</h3>
               <p>
                 Dr. Agro platformasından faydalanın: yeni əkinlər üçün büdcə hesablamaq, əkin sahəsi yaratma və
                 planlama, torpaq analizi, aqronom dəstəyi, fərdi gübrələmə və dərmanlama planları, biznes planlar və
                 sahədə görüləcək işlər üzrə bildiriş və xəbərdarlıqlar.
               </p>
-              <button class="btn greenBtn px-4 py-2">Başla</button>
+              <a href="№" class=" greenBtn">Başla</a>
+
             </div>
           </div>
 
         </div>
         <div class="row mb-3 gx-5">
           <div class="col-lg-12 col-xl-6  p-0">
-            <img class="img-fluid w-100" src="./images/desktopView.png">
+            <picture>
+              <source srcset="./images/mobileDesktop.png" media="(max-width: 768px)" />
+              <img class="img-fluid w-100" src="./images/desktopView.png">
+
+
+            </picture>
           </div>
           <div class="col-lg-12 col-xl-6  order-first">
-            <div class="d-flex h-100 flex-column justify-content-center align-items-start p-5">
+            <div class="d-flex h-100 flex-column justify-content-center align-items-center align-items-xl-start p-5">
               <h3>Məhsuldarlığınızı bizimlə artırın</h3>
               <p>
                 Dr. Agro platformasından faydalanın: yeni əkinlər üçün büdcə hesablamaq, əkin sahəsi yaratma və
                 planlama, torpaq analizi, aqronom dəstəyi, fərdi gübrələmə və dərmanlama planları, biznes planlar və
                 sahədə görüləcək işlər üzrə bildiriş və xəbərdarlıqlar. </p>
-              <button class="btn greenBtn px-4 py-2">Başla</button>
+              <a href="https://play.google.com/store/movies" class=" greenBtn  ">Başla</a>
             </div>
           </div>
 
@@ -222,15 +270,15 @@
 
       </div>
     </section>
-
+    <!--userComment section-->
     <section id="userComment" class="py-5">
       <div class="container">
         <h2 class="fs-1 text-center mb-3">İstifadəçi rəyləri</h2>
 
         <div class="row multiple-items my-5 gx-3 position-relative">
           <div class="col-lg-4 px-2 h-100">
-            <div class="card border border-1 py-2 " >
-              <img src="./images/user1.png" alt="Əsəd Muradov" class="userImage" >
+            <div class="card border border-1 py-2 ">
+              <img src="./images/user1.png" alt="Əsəd Muradov" class="userImage">
               <div class="card-body ">
                 <h5 class="card-title text-center">Əsəd Muradov</h5>
                 <p class="card-text text-center ">Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
@@ -239,8 +287,8 @@
             </div>
           </div>
           <div class="col-lg-4 px-2 h-100">
-            <div class="card border border-1 py-2 " >
-              <img src="./images/user2.png" alt="Nazrin Miriyeva" class="userImage" >
+            <div class="card border border-1 py-2 ">
+              <img src="./images/user2.png" alt="Nazrin Miriyeva" class="userImage">
               <div class="card-body ">
                 <h5 class="card-title text-center">Nazrin Miriyeva</h5>
                 <p class="card-text text-center ">Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
@@ -249,8 +297,8 @@
             </div>
           </div>
           <div class="col-lg-4 px-2 h-100">
-            <div class="card border border-1 py-2 " >
-              <img src="./images/user1.png" alt="Əsəd Muradov" class="userImage" >
+            <div class="card border border-1 py-2 ">
+              <img src="./images/user1.png" alt="Əsəd Muradov" class="userImage">
               <div class="card-body ">
                 <h5 class="card-title text-center">Əsəd Muradov</h5>
                 <p class="card-text text-center ">Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
@@ -259,8 +307,8 @@
             </div>
           </div>
           <div class="col-lg-4 px-2 h-100">
-            <div class="card border border-1 py-2 " >
-              <img src="./images/user1.png" alt="Əsəd Muradov" class="userImage" >
+            <div class="card border border-1 py-2 ">
+              <img src="./images/user1.png" alt="Əsəd Muradov" class="userImage">
               <div class="card-body ">
                 <h5 class="card-title text-center">Əsəd Muradov</h5>
                 <p class="card-text text-center ">Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
@@ -272,124 +320,131 @@
       </div>
 
     </section>
-
-    <!--TEAM SECTION-->
-
-    <section id="team" class="generic">
-      <div class="container">
-        <h2 class="display-5 text-danger mb-5">THE TEAM</h2>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6 col-lg-3 p-0">
-            <div class="d-grid bg-danger py-5">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-danger rounded-0 py-5" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
-                <span class="lead">DESIGNER</span>
-              </button>
+    <!--Counter section-->
+    <section id="counter" class="py-4">
+      <div class="container-fluid py-4">
+        <div class="row container justify-content-center mx-auto">
+          <div class="col-lg-4 col-sm-12">
+            <div class=" py-2 d-flex flex-column align-items-center">
+              <img src="./images/plant.svg" alt="Bitkilərin sayı" class="userImage mb-2">
+              <h3 class="  mb-1 fs-1">1200</h3>
+              <p class="fs-5">Bitkilərin sayı</p>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3  p-0">
-            <div class="d-grid bg-warning py-5">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-warning rounded-0 py-5" data-bs-toggle="modal"
-                data-bs-target="#exampleModal2">
-                <span class="lead">DEVELOPER</span>
-              </button>
+          <div class="col-lg-4 col-sm-12">
+            <div class=" py-2 d-flex flex-column align-items-center">
+              <img src="./images/day.svg" alt="Xidmətlərin sayı" class="userImage mb-2">
+              <h3 class="  mb-1 fs-1">500<i class="bi bi-plus"></i></h3>
+              <p class="fs-5">Xidmətlərin sayı</p>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3  p-0">
-            <div class="d-grid bg-success py-5">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-success rounded-0 py-5" data-bs-toggle="modal"
-                data-bs-target="#exampleModal3">
-                <span class="lead">ENGINEER</span>
-              </button>
+          <div class="col-lg-4 col-sm-12">
+            <div class=" py-2 d-flex flex-column align-items-center">
+              <img src="./images/userCounter.svg" alt="İstifadəçi sayı" class="userImage mb-2">
+              <h3 class="  mb-1 fs-1">350</h3>
+              <p class="fs-5">İstifadəçi sayı</p>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3  p-0">
-            <div class="d-grid bg-info py-5">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-info rounded-0 py-5" data-bs-toggle="modal"
-                data-bs-target="#exampleModal4">
-                <span class="lead">ARTIST</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!--MODAL-->
-
-      <!-- Modal 1 -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-            <div class="modal-body">
-              <img src="./img/team1.jpg" class="img-fluid">
-              <h5 class="lead text-danger mt-2">JANE MAYAKOVSKI</h5>
-              <p>Utilize the Bootstrap grid system within a modal by nesting .container-fluid within the .modal-body.
-                Then, use the normal grid system classes as you would anywhere else.</p>
-              <ul class="list-unstyled">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <ul>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
-                </ul>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-
-              <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
-                <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
-                <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
-                <button type="button" class="btn btn-info rounded-0">TWITTER</button>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Modal 2 -->
-      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-            <div class="modal-body">
-              <img src="./img/team2.jpg" class="img-fluid">
-              <h5 class="lead text-danger mt-2">JOHN DOE</h5>
-              <p>Utilize the Bootstrap grid system within a modal by nesting .container-fluid within the .modal-body.
-                Then, use the normal grid system classes as you would anywhere else.</p>
-              <ul class="list-unstyled">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <ul>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
-                </ul>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-
-              <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
-                <button type="button" class="btn btn-warning rounded-0">LINKEDIN</button>
-                <button type="button" class="btn btn-success rounded-0">FACEBOOK</button>
-                <button type="button" class="btn btn-info rounded-0">TWITTER</button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
     </section>
+    <!--Blog section-->
+    <section class="py-5" id="blog">
+      <div class="container">
+        <h2 class="fs-1 text-center mb-3">Blog</h2>
+        <div class="row multiple-items ">
+          <div class="col-lg-4 px-4">
+            <div class="card border border-1 mx-auto" style="max-width: 22rem;">
+              <img src="./images/blog1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.</h5>
+                <p class="card-text">
+                  Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
+                </p>
+                <a href="#" class="card-link">Ətraflı <i class="bi bi-chevron-right"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="card border border-1 mx-auto" style="max-width: 22rem;">
+              <img src="./images/blog2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.</h5>
+                <p class="card-text">
+                  Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
+                </p>
+                <a href="#" class="card-link">Ətraflı <i class="bi bi-chevron-right"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="card border border-1  mx-auto" style="max-width: 22rem;">
+              <img src="./images/blog3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.</h5>
+                <p class="card-text">
+                  Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
+                </p>
+                <a href="#" class="card-link">Ətraflı <i class="bi bi-chevron-right"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4">
+            <div class="card border border-1  mx-auto" style="max-width: 22rem;">
+              <img src="./images/blog3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.</h5>
+                <p class="card-text">
+                  Fermerlər gübrənin tam dəyərini “Fermer karti” ilə ödüyə biləcəklər.
+                </p>
+                <a href="#" class="card-link">Ətraflı <i class="bi bi-chevron-right"></i> </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!--GettheApp section-->
+    <section id="getTheApp" class="py-5 d-none d-xl-block ">
+      <div
+        class="container bg-green rounded w-100 d-flex  mt-2 flex-column justify-content-center px-5 position-relative   ">
+        <h2 class="fs-1 w-50 text-white mb-4">Dr. Agro ilə əkinləriniz daha planlı, məhsuldar və gəlirli olsun.</h2>
+        <a href="https://play.google.com/store/movies" class=" greenBtn  bg-white">Get the app</a>
+        <img src="./images/rightHand.png" alt="Get The App" class="position-absolute bottom-0 end-0 img-fluid ">
+      </div>
+    </section>
+    <!--Partner section-->
+    <section class="py-5" id="partner">
+      <div class="container">
+        <div class="row partner-items">
+          <div class="col bg-light p-3 d-flex justify-content-center align-items-center">
+            <img src="./images/biofix 1.png" alt="biofix" class="img-fluid">
+          </div>
+          <div class="col bg-light p-3 d-flex justify-content-center align-items-center ">
+            <img src="./images/npc.png" alt="Konsoltinq və mühəndislik" class="img-fluid">
+          </div>
+          <div class="col bg-light p-3 d-flex justify-content-center align-items-center ">
+            <img src="./images/Ktn.png" alt="Kənd təsərrüfatı nazirliyi" class="img-fluid">
+          </div>
+          <div class="col bg-light p-3 d-flex justify-content-center align-items-center">
+            <img src="./images/Toyota_logo .png" alt="Toyota" class="img-fluid">
+          </div>
+          <div class="col bg-light p-3  d-flex justify-content-center align-items-center">
+            <img src="./images/access.png" alt="access" class="img-fluid">
+          </div>
+          <div class="col bg-light p-3 d-flex justify-content-center align-items-center">
+            <img src="./images/access.png" alt="access" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
-  <footer class="bd-footer py-5 mt-5 bg-dark text-light">
+  <footer id ="footer" class="bd-footer pt-5 mt-5 bg-dark text-light">
     <div class="container ">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-3 ps-3">
@@ -402,11 +457,11 @@
         <div class="col-lg-3 col-md-6 col-sm-12  mb-3 ps-3 d-flex flex-column justify-content-center">
           <h5 class="mb-4 text-white">Linklər</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="#">Haqqımızda</a></li>
-            <li class="mb-2"><a href="#">Məhsullar</a></li>
-            <li class="mb-2"><a href="#">Xidmətlər</a></li>
-            <li class="mb-2"><a href="#">Bloq</a></li>
-            <li class="mb-2"><a href="#">FAG</a></li>
+            <li class="mb-2"><a href="#about">Haqqımızda</a></li>
+            <li class="mb-2"><a href="#product">Məhsullar</a></li>
+            <li class="mb-2"><a href="#counter">Xidmətlər</a></li>
+            <li class="mb-2"><a href="#blog">Bloq</a></li>
+            <li class="mb-2"><a href="#">FAQ</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 mb-3 ps-3">
@@ -416,26 +471,24 @@
               <span class="h-100 me-3">
                 <i class="bi bi-geo-alt"></i>
               </span>
-              <span>
-                Bakı şəhəri. Binəqədi rayounu,
+              <a href="https://www.google.com/maps">
+                Bakı şəhəri. Binəqədi rayounu, </br>
                 Akif İslamzadə küçəsi 125
-              </span>
+              </a>
             </li>
             <li class="mb-2 d-flex align-items-center">
               <span class="h-100  me-3">
                 <i class="bi bi-envelope"></i>
               </span>
-              <span>
-                test@gmail.com
-              </span>
+              <a href="mailto: test@gmail.com"> test@gmail.com</a>
             </li>
             <li class="mb-2 d-flex align-items-center">
               <span class="h-100  me-3">
                 <i class="bi bi-telephone"></i>
               </span>
-              <span>
-                +994 51 56676766
-              </span>
+              <a href="tel: +994515667676">
+                +994 51 566 76 76
+              </a>
             </li>
           </ul>
         </div>
@@ -443,13 +496,15 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-5 ps-3 d-flex flex-column justify-content-lg-end">
           <p class="text-center">Bizi sosial şəbəkələrdə izləyin</p>
           <ul class="list-unstyled d-flex justify-content-center">
-            <li class="mb-2 mx-2"><a href="#">
+            <li class="mb-2 mx-2">
+              <a href="#">
                 <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M1.1698 11.5283V17.3397H5.52829V27.5095H11.3396V17.3397H15.6981L17.1509 11.5283H11.3396V8.62267C11.3396 8.23736 11.4927 7.86782 11.7651 7.59537C12.0376 7.32291 12.4071 7.16984 12.7924 7.16984H17.1509V1.35852H12.7924C10.8659 1.35852 9.0182 2.12385 7.65591 3.48614C6.29362 4.84843 5.52829 6.6961 5.52829 8.62267V11.5283H1.1698Z"
                     stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-              </a></li>
+              </a>
+            </li>
             <li class="mb-2 mx-2"><a href="#">
                 <svg width="32" height="25" viewBox="0 0 32 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -499,8 +554,11 @@
           </ul>
         </div>
       </div>
+
+    </div>
+    <div class="container-fluid pb-3">
+      <hr>
       <div class="row">
-        <hr>
         <div class="col-lg-4 offset-lg-8 col-md-12 text-center">
           <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -516,7 +574,6 @@
     </div>
   </footer>
 
-
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -524,7 +581,7 @@
   <!-- Main js -->
   <script src="./js/index.js"></script>
 
-  
+
 
 </body>
 
